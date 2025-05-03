@@ -6,7 +6,7 @@ import WorldMap from './pages/WorldMap'
 import Dashboard from './pages/Dashboard'
 import { useEffect } from 'react'
 import { useUser } from './contexts/UserContext'
-import './app.css'
+import './App.css'
 
 function App() {
   const navigate = useNavigate();
